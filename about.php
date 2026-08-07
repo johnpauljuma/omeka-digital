@@ -97,46 +97,40 @@ require 'partials/navbar.php';
 </section>
 
 <!-- ============================ Team ============================ -->
-<!-- Note: names, roles and bios below are placeholders — replace with your real team. -->
 <section class="py-20 md:py-28 bg-surface">
   <div class="container mx-auto px-4 md:px-6">
     <div class="text-center max-w-2xl mx-auto mb-16 reveal">
       <span class="section-eyebrow">Our People</span>
-      <h2 class="text-3xl md:text-4xl font-display font-bold mt-4 text-navy">Meet The Team</h2>
-      <p class="text-slate mt-4">The professionals behind Omeka Digital's work. (Sample profiles — swap in your real team.)</p>
+      <h2 class="text-3xl md:text-4xl font-display font-bold mt-4 text-navy">Meet The Founders</h2>
+      <p class="text-slate mt-4">A small, hands-on team — every project gets our direct attention.</p>
     </div>
 
-    <div class="grid md:grid-cols-3 gap-8">
-      <div class="card rounded-2xl overflow-hidden reveal">
-        <div class="h-56 bg-navy flex items-center justify-center">
-          <i class="fas fa-user-tie text-white/80 text-5xl"></i>
-        </div>
-        <div class="p-6 text-center">
-          <h3 class="text-lg font-display font-semibold text-navy">Team Member</h3>
-          <p class="text-accent text-sm mb-3">CEO &amp; Founder</p>
-          <p class="text-slate text-sm">Years of experience in software development and digital strategy.</p>
+    <div class="grid md:grid-cols-2 gap-8 max-w-3xl mx-auto">
+
+      <!-- John Paul -->
+      <div class="card rounded-2xl p-8 text-center reveal">
+        <img src="assets/images/about/team/john-paul.png" alt="John Paul, Founder & CEO"
+             class="w-40 h-40 rounded-full object-cover object-top border-4 border-white shadow-md mx-auto mb-5">
+        <h3 class="text-xl font-display font-semibold text-navy">John Paul</h3>
+        <p class="text-accent text-sm font-medium mb-3">Founder &amp; CEO &middot; Core Developer</p>
+        <p class="text-slate text-sm mb-4">Leads Omeka Digital's vision and stays hands-on in the codebase, building the core systems behind every project we ship.</p>
+        <div class="flex justify-center gap-3">
+          <a href="#" class="social-icon !bg-navy/10 !text-navy hover:!bg-accent hover:!text-white" aria-label="LinkedIn"><i class="fab fa-linkedin-in text-sm"></i></a>
+          <a href="#" class="social-icon !bg-navy/10 !text-navy hover:!bg-accent hover:!text-white" aria-label="GitHub"><i class="fab fa-github text-sm"></i></a>
         </div>
       </div>
 
-      <div class="card rounded-2xl overflow-hidden reveal">
-        <div class="h-56 bg-navy flex items-center justify-center">
-          <i class="fas fa-code text-white/80 text-5xl"></i>
+      <!-- Arnold Ekaka Rinyo -->
+      <div class="card rounded-2xl p-8 text-center reveal">
+        <div class="w-40 h-40 rounded-full bg-gradient-to-br from-navy via-navy-soft to-primary-dark border-4 border-white shadow-md mx-auto mb-5 flex items-center justify-center">
+          <span class="font-display text-3xl font-bold text-white/90">AE</span>
         </div>
-        <div class="p-6 text-center">
-          <h3 class="text-lg font-display font-semibold text-navy">Team Member</h3>
-          <p class="text-accent text-sm mb-3">CTO</p>
-          <p class="text-slate text-sm">Full-stack developer specializing in scalable architectures.</p>
-        </div>
-      </div>
-
-      <div class="card rounded-2xl overflow-hidden reveal">
-        <div class="h-56 bg-navy flex items-center justify-center">
-          <i class="fas fa-palette text-white/80 text-5xl"></i>
-        </div>
-        <div class="p-6 text-center">
-          <h3 class="text-lg font-display font-semibold text-navy">Team Member</h3>
-          <p class="text-accent text-sm mb-3">Creative Director</p>
-          <p class="text-slate text-sm">UX/UI specialist with a passion for human-centered design.</p>
+        <h3 class="text-xl font-display font-semibold text-navy">Arnold Ekaka Rinyo</h3>
+        <p class="text-accent text-sm font-medium mb-3">CTO &amp; Marketing Officer</p>
+        <p class="text-slate text-sm mb-4">Drives the technical architecture behind our products and shapes how Omeka Digital's work reaches the businesses we serve.</p>
+        <div class="flex justify-center gap-3">
+          <a href="#" class="social-icon !bg-navy/10 !text-navy hover:!bg-accent hover:!text-white" aria-label="LinkedIn"><i class="fab fa-linkedin-in text-sm"></i></a>
+          <a href="#" class="social-icon !bg-navy/10 !text-navy hover:!bg-accent hover:!text-white" aria-label="GitHub"><i class="fab fa-github text-sm"></i></a>
         </div>
       </div>
     </div>

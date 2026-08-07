@@ -29,7 +29,7 @@ $ogImage         = $ogImage         ?? 'assets/images/omeka-nevy-2.png';
 <script src="https://cdn.tailwindcss.com"></script>
 
 <!-- Font Awesome -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 
 <!-- Site design system + config -->
 <link rel="stylesheet" href="css/style.css">

@@ -232,6 +232,134 @@ require 'partials/navbar.php';
   </div>
 </section>
 
+<!-- ============================ Tech Stack ============================ -->
+<section class="py-20 md:py-24 px-4 md:px-6 hero-section text-white">
+  <div class="container mx-auto">
+    <div class="max-w-2xl mb-16 reveal">
+      <span class="section-eyebrow bg-white/10 text-accent">
+        <i class="fas fa-terminal"></i> Tech Stack
+      </span>
+      <h2 class="font-display text-3xl md:text-4xl font-bold text-white mt-5 mb-4">Tools We Build With</h2>
+      <p class="text-lg text-white/60">No mystery stack — real, proven technology chosen for the job, not the buzzword.</p>
+    </div>
+
+    <div class="space-y-12">
+
+      <!-- Programming Languages -->
+      <div class="reveal">
+        <p class="tech-group-label mb-5">Programming Languages</p>
+        <div class="flex flex-wrap justify-center gap-4">
+          <div class="tech-chip">
+            <img src="https://cdn.simpleicons.org/php/777BB4" alt="PHP" class="w-7 h-7" loading="lazy">
+            <span>PHP</span>
+          </div>
+          <div class="tech-chip">
+            <img src="https://cdn.simpleicons.org/javascript/F7DF1E" alt="JavaScript" class="w-7 h-7" loading="lazy">
+            <span>JavaScript</span>
+          </div>
+          <div class="tech-chip">
+            <img src="https://cdn.simpleicons.org/typescript/3178C6" alt="TypeScript" class="w-7 h-7" loading="lazy">
+            <span>TypeScript</span>
+          </div>
+          <div class="tech-chip">
+            <img src="https://cdn.simpleicons.org/python/3776AB" alt="Python" class="w-7 h-7" loading="lazy">
+            <span>Python</span>
+          </div>
+          <div class="tech-chip">
+            <img src="https://cdn.simpleicons.org/dart/0175C2" alt="Dart" class="w-7 h-7" loading="lazy">
+            <span>Dart</span>
+          </div>
+          <div class="tech-chip">
+            <img src="https://cdn.simpleicons.org/swift/F05138" alt="Swift" class="w-7 h-7" loading="lazy">
+            <span>Swift</span>
+          </div>
+          <div class="tech-chip">
+            <img src="https://cdn.simpleicons.org/kotlin/7F52FF" alt="Kotlin" class="w-7 h-7" loading="lazy">
+            <span>Kotlin</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Frontend -->
+      <div class="reveal">
+        <p class="tech-group-label mb-5">Frontend</p>
+        <div class="flex flex-wrap justify-center gap-4">
+          <div class="tech-chip">
+            <img src="https://cdn.simpleicons.org/html5/E34F26" alt="HTML5" class="w-7 h-7" loading="lazy">
+            <span>HTML5</span>
+          </div>
+          <div class="tech-chip">
+            <img src="https://cdn.simpleicons.org/css3/1572B6" alt="CSS3" class="w-7 h-7" loading="lazy">
+            <span>CSS3</span>
+          </div>
+          <div class="tech-chip">
+            <img src="https://cdn.simpleicons.org/tailwindcss/38BDF8" alt="Tailwind CSS" class="w-7 h-7" loading="lazy">
+            <span>Tailwind</span>
+          </div>
+          <div class="tech-chip">
+            <img src="https://cdn.simpleicons.org/react/61DAFB" alt="React" class="w-7 h-7" loading="lazy">
+            <span>React</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Backend & Data -->
+      <div class="reveal">
+        <p class="tech-group-label mb-5">Backend &amp; Data</p>
+        <div class="flex flex-wrap justify-center gap-4">
+          <div class="tech-chip">
+            <img src="https://cdn.simpleicons.org/composer/885630" alt="Composer" class="w-7 h-7" loading="lazy">
+            <span>Composer</span>
+          </div>
+          <div class="tech-chip">
+            <img src="https://cdn.simpleicons.org/nodedotjs/339933" alt="Node.js" class="w-7 h-7" loading="lazy">
+            <span>Node.js</span>
+          </div>
+          <div class="tech-chip">
+            <img src="https://cdn.simpleicons.org/mysql/4479A1" alt="MySQL" class="w-7 h-7" loading="lazy">
+            <span>MySQL</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Workflow & Design -->
+      <div class="reveal">
+        <p class="tech-group-label mb-5">Workflow &amp; Design</p>
+        <div class="flex flex-wrap justify-center gap-4">
+          <div class="tech-chip">
+            <img src="https://cdn.simpleicons.org/figma/F24E1E" alt="Figma" class="w-7 h-7" loading="lazy">
+            <span>Figma</span>
+          </div>
+          <div class="tech-chip">
+            <img src="https://cdn.simpleicons.org/git/F05032" alt="Git" class="w-7 h-7" loading="lazy">
+            <span>Git</span>
+          </div>
+          <div class="tech-chip">
+            <img src="https://cdn.simpleicons.org/github/FFFFFF" alt="GitHub" class="w-7 h-7" loading="lazy">
+            <span>GitHub</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Infrastructure -->
+      <div class="reveal">
+        <p class="tech-group-label mb-5">Infrastructure</p>
+        <div class="flex flex-wrap justify-center gap-4">
+          <div class="tech-chip">
+            <img src="https://cdn.simpleicons.org/vercel/FFFFFF" alt="Vercel" class="w-7 h-7" loading="lazy">
+            <span>Vercel</span>
+          </div>
+          <div class="tech-chip">
+            <img src="https://cdn.simpleicons.org/digitalocean/0080FF" alt="DigitalOcean" class="w-7 h-7" loading="lazy">
+            <span>DigitalOcean</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
 <!-- ============================ Process ============================ -->
 <section class="py-20 md:py-28 bg-surface">
   <div class="container mx-auto px-4 md:px-6">
@@ -418,7 +546,7 @@ require 'partials/navbar.php';
 </section>
 
 <!-- ============================ Testimonials ============================ -->
-<!-- Note: sample quotes below are placeholders — replace with real client testimonials. -->
+<!-- Note: sample quotes below are placeholders — replace with real client testimonials. 
 <section class="py-20 md:py-28 bg-white">
   <div class="container mx-auto px-4 md:px-6">
     <div class="text-center max-w-2xl mx-auto mb-16 reveal">
@@ -471,7 +599,7 @@ require 'partials/navbar.php';
       </div>
     </div>
   </div>
-</section>
+</section>-->
 
 <!-- ============================ CTA ============================ -->
 <section class="py-20 px-4 md:px-6 hero-section text-center">
